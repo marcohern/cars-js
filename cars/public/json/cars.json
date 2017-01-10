@@ -1,0 +1,42 @@
+[
+	{
+		"id":1,
+		"image": "/img/car1.jpg",
+		"name": "Modern Sexy Car",
+		"brand": "Tesla",
+		"price": 250000,
+		"year" : 2013
+	},
+	{
+		"id":2,
+		"image": "/img/car2.jpg",
+		"name" : "Dirt Race Car",
+		"brand": "Honda",
+		"price": 85000,
+		"year":2014
+	},
+	{
+		"id":3,
+		"image": "/img/car3.jpg",
+		"name": "Family Car",
+		"brand": "Mazda",
+		"price": 68000,
+		"year":2012
+	},
+	{
+		"id":4,
+		"image": "/img/car4.jpg",
+		"name":"Regular Used Car",
+		"brand":"Pajarito",
+		"price": 4000,
+		"year":2001
+	},
+	{
+		"id":5,
+		"image": "/img/car5.jpg",
+		"name":"Likely CGI Car",
+		"brand": "Ferrari",
+		"price": 300000,
+		"year": 2017
+	}
+]

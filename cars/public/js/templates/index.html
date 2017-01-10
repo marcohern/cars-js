@@ -1,0 +1,27 @@
+
+<button class="btn btn-success" ng-disabled="disableCompareButton" ng-click="goToCompare()">Compare</button>
+
+<br/><br/>
+<div class="row">
+	<div class="col-sm-4" ng-repeat="car in cars">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				{{car.name}}
+			</div>
+			<div class="panel-body">
+				<a href="#!/details/{{car.id}}">
+					<img ng-src="{{ car.image }}" alt="{{car.name}}" class="img-rounded" width="100%"/>
+				</a>
+			</div>
+			<div class="panel-footer">
+				<span class="price">$ {{ car.price | number : 0 }}</span>
+				<span class="brand">{{car.brand}}</span>
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" ng-model="compare" ng-disabled="disableCompare && !compare" ng-click="toggleCompare(car, $this)"> Compare
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

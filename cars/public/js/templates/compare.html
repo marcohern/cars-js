@@ -1,0 +1,28 @@
+<h1>Compare</h1>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>&nbsp;</th>
+			<td ng-repeat="car in cars track by $index">{{car.name}}</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>&nbsp;</th>
+			<td ng-repeat="car in cars track by $index"><img ng-src="{{car.image}}" alt="{{car.name}}" class="img-responsive" /></td>
+		</tr>
+		<tr>
+			<th>Brand</th>
+			<td ng-repeat="car in cars track by $index">{{car.brand}}</td>
+		</tr>
+		<tr>
+			<th>Price</th>
+			<td ng-repeat="car in cars track by $index">$ {{car.price | number:0}}</td>
+		</tr>
+		<tr>
+			<th>Year</th>
+			<td ng-repeat="car in cars track by $index">{{car.year}}</td>
+		</tr>
+	</tbody>
+</table>

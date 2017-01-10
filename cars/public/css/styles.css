@@ -1,0 +1,45 @@
+html, body {
+}
+
+#loader {
+	position: absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	background-color: black;
+	opacity: 0.75;
+}
+
+#loader img {
+	position: absolute;
+	right: 0;
+	bottom:0;
+}
+
+.price {
+	font-size: 24px;
+	font-weight: bold;
+	color: red;
+}
+
+.specs {
+	font-size: 1.5em;
+}
+
+.specs .row {
+	margin-top: 1em;
+}
+
+.specs .price {
+	font-size: 2em;
+}
+
+.specs .title {
+	font-weight: bold;
+
+}
+
+.specs .value {
+
+}

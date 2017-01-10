@@ -1,0 +1,26 @@
+<button type="button" class="btn btn-danger" ng-click="goToCars()" >Return</button><br/><br/>
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		{{car.name}}
+	</div>
+	<div class="panel-body">
+		<img src="{{ car.image }}" alt="{{car.name}}" class="img-responsive"/>
+		<div class="specs">
+			<div class="row">
+				<div class="col-xs-12 price">$ {{ car.price | number: 0}}</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 title">Name</div>
+				<div class="col-xs-6 value">{{car.name}}</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 title">Brand</div>
+				<div class="col-xs-6 value">{{car.brand}}</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 title">Year</div>
+				<div class="col-xs-6 value">{{car.year}}</div>
+			</div>
+		</div>
+	</div>
+</div>
